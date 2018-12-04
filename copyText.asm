@@ -9,8 +9,8 @@ data ends
 
 main:	mov ax, data
 	mov ds, ax
-	mov bx, 0000h
-	mov si, 0010h
+	mov bx, 00h
+	mov si, 10h
 	mov cx, 0010h
 	mov ax, 0000h
 
