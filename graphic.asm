@@ -14,7 +14,7 @@
 ;*
 ;* Date        Author      Ref    Revision (Date in DDMMYYYY format) 
 ;* 07122018    lst97       1      First release
-;* 07122018    lst97	   1	  Relocate SP
+;* 07122018    lst97       2      Relocate SP
 ;* Known Issue       :
 ;*
 ;* N/A
