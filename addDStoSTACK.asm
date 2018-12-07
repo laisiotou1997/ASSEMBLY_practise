@@ -11,7 +11,7 @@ dataB segment
 dataB ends
 
 stack segment
-	db 0, 0, 0, 0, 0, 0, 0, 0
+	db 16 dup (0)				; fix stack overflow 07/12/2018
 stack ends
 
 main:	mov ax, dataA
