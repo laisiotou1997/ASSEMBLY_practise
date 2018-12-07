@@ -9,12 +9,15 @@ data segment
 data ends
 
 stack segment
-	db 00h, 00h
+	dw 0000h
 stack ends
 
 main:	mov ax, data
 	mov ds, ax
 	mov cx, 0004h
+	mov ax, stack
+	mov ss, ax
+	mov sp, 0002h
 	mov ax, 0000h
 	mov bx, 03h
 	mov si, 0Ch
