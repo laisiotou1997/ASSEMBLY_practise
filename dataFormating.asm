@@ -14,7 +14,7 @@
 ;*
 ;* Date        Author      Ref    Revision (Date in DDMMYYYY format) 
 ;* 06122018    lst97       1      First release
-;*
+;* 07122018    lst97       2      Fix stack overflow & relocate SP
 ;* Known Issue       :
 ;*
 ;* N/A
@@ -49,6 +49,9 @@ stack ends
 
 main:	mov ax, data
 	mov ds, ax
+	mov ax, stack
+	mov ss, ax
+	mov sp, 02h
 	mov cx, 0015h
 	mov di, 00h
 	mov si, 00h
