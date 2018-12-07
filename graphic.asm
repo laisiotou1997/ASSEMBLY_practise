@@ -14,7 +14,7 @@
 ;*
 ;* Date        Author      Ref    Revision (Date in DDMMYYYY format) 
 ;* 07122018    lst97       1      First release
-;*
+;* 07122018    lst97	   1	  Relocate SP
 ;* Known Issue       :
 ;*
 ;* N/A
@@ -39,6 +39,7 @@ main:	mov ax, 0B872h
 	mov ds, ax
 	mov ax, stack
 	mov ss, ax
+	mov sp, 0006h
 	xor di, di			;Graphic address for writing data, increased by loop
 	xor bx, bx			;Save amount of bit untill next Row (xor reg, reg) = set 0
 	mov cx, 0003h
