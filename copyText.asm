@@ -26,7 +26,7 @@ lp:	mov al, ds:[bx]
 code ends
 end main
 
-;Optimized code
+;Optimized_01 code
 ;assume cs:code, ds:data
 ;code segment
 ;data segment
@@ -48,6 +48,32 @@ end main
 ;
 ;	mov ax, 4C00h
 ;	int 21h
+;
+;code ends
+;end main
+
+;Optimized_02 code
+;assume cs:code, ds:data
+;data segment
+;	db 'Welcome to MASM!'
+;	db 16 dup (0)
+;data ends
+;
+;code segment
+;main:	mov ax, data
+;	mov ds, ax
+;	mov cx, 0010h
+;	xor si,	si
+;	xor di, 10h
+;
+;	cld
+;lpByte:	mov al, ds:[si]
+;		mov ds:[di], al
+;		movsb
+;		loop lpByte
+;
+;		mov ax, 4C00h
+;		int 21h
 ;
 ;code ends
 ;end main
