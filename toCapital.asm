@@ -1,3 +1,6 @@
+;* Know issue 01:
+;* output incorrect if input not a letter. [fix with 'letterToCap.asm'] (09122018 edited)
+
 assume cs:code, ds:data
 
 code segment
