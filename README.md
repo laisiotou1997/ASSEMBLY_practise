@@ -6,7 +6,7 @@ My assembly language run-down
 </div>
 <div>&nbsp;</div>
 <div>
-<pre class=" CodeMirror-line " role="presentation"><em>finalResearch_ all about how C language related to Assembly.</em><br /><br /></pre>
+<pre class=" CodeMirror-line " role="presentation"><em>finalResearch_ all about how C language related to Assembly.</em></pre>
 </div>
 <div>
 <pre class=" CodeMirror-line " role="presentation">- Table - (Following difficulty lab_ &lt; advQ_ &lt; finalResearch_)<br /><br /></pre>
@@ -37,9 +37,6 @@ My assembly language run-down
 </div>
 <div>
 <pre class=" CodeMirror-line " role="presentation"><span style="color: #808080;">fResearch_05           N/A                 N/A                    N/A</span></pre>
-</div>
-<div>
-<pre class=" CodeMirror-line " role="presentation"><span role="presentation"></span></pre>
 </div>
 <div>
 <pre class=" CodeMirror-line " role="presentation">#Report</pre>
