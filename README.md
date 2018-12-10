@@ -12,7 +12,7 @@ My assembly language run-down
 <pre class=" CodeMirror-line " role="presentation">- Table - (Following difficulty lab_ &lt; advQ_ &lt; finalResearch_)<br /><br /></pre>
 </div>
 <div>
-<pre class=" CodeMirror-line " role="presentation"><span role="presentation"></span><span style="font-family: Verdana, Arial, Helvetica, sans-serif;"><strong>projName</strong>            <strong>startDate            </strong><strong>endDate</strong>            <strong>result(CO/NC/SO)       </strong></span><em><span class="cm-em" style="font-family: Verdana, Arial, Helvetica, sans-serif;">*</span><span class="cm-em cm-link" style="font-family: Verdana, Arial, Helvetica, sans-serif;">[CO=Competence NC=NotCompetence]</span></em></pre>
+<pre class=" CodeMirror-line " role="presentation"><span role="presentation"></span><span style="font-family: Verdana, Arial, Helvetica, sans-serif;"><strong>projName</strong>            <strong>startDate            </strong><strong>endDate</strong>            <strong>result(CO/NC/SO)       </strong></span><em><span class="cm-em" style="font-family: Verdana, Arial, Helvetica, sans-serif;">*</span><span class="cm-em cm-link" style="font-family: Verdana, Arial, Helvetica, sans-serif;">[CO=Competence NC=NotCompetence SO=StuckOver_link]</span></em></pre>
 </div>
 <div>
 <pre class=" CodeMirror-line " role="presentation">lab_16                 N/A                 N/A                    N/A</pre>
@@ -36,7 +36,10 @@ My assembly language run-down
 <pre class=" CodeMirror-line " role="presentation"><span role="presentation"></span>fResearch_04           N/A                 N/A                    N/A</pre>
 </div>
 <div>
-<pre class=" CodeMirror-line " role="presentation"><span style="color: #808080;">fResearch_05           N/A                 N/A                    N/A</span></pre>
+<pre class=" CodeMirror-line " role="presentation"><span style="color: #808080;">fResearch_05           N/A                 N/A                    N/A<br /></span></pre>
+</div>
+<div>
+<pre class=" CodeMirror-line " role="presentation">= = = = = = = = = = = = = = = = = = = = = = = =&nbsp;= = = = = = = = = = = =&nbsp;</pre>
 </div>
 <div>
 <pre class=" CodeMirror-line " role="presentation">#Report</pre>
